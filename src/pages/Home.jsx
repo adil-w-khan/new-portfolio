@@ -19,7 +19,7 @@ export default function Home() {
         <h1 className="text-3xl md:text-5xl font-bold text-gray-200 mb-10 pt-10">
           Who's Watching?
         </h1>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
           {profiles.map((p) => (
             <ProfileCard key={p.title} title={p.title} Icon={p.Icon} route={p.route} bg={p.bg} />
           ))}
