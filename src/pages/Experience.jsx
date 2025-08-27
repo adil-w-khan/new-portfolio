@@ -27,7 +27,7 @@ export default function Experience() {
       case 'freelance':
         return freelanceProjects;
       case 'nontech':
-        return nonTechRoles; // NEW
+        return nonTechRoles;
       default:
         return experienceData;
     }
@@ -49,7 +49,7 @@ export default function Experience() {
             { key: 'fulltime', label: 'Full-Time' },
             { key: 'internship', label: 'Internships' },
             { key: 'freelance', label: 'Freelance' },
-            { key: 'nontech', label: 'Non-Tech' } // NEW
+            { key: 'nontech', label: 'Non-Tech' }
           ].map((tab) => (
             <button
               key={tab.key}
