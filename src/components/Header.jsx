@@ -1,34 +1,61 @@
-import { Link, NavLink } from "react-router-dom";
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
-  const navLinks = [
-    { name: "About", to: "/about" },
-    { name: "Experience", to: "/experience" },
-    { name: "Projects", to: "/projects" },
-    { name: "Resume", to: "/resume" },
-    { name: "Contact", to: "/contact" },
+  const [open, setOpen] = useState(false);
+
+  const links = [
+    { name: "About", route: "/about" },
+    { name: "Experience", route: "/experience" },
+    { name: "Projects", route: "/projects" },
+    { name: "Resume", route: "/resume" },
+    { name: "Contact", route: "/contact" },
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-neutral-900/90 backdrop-blur-md shadow">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
-        <Link to="/" className="text-2xl font-bold text-red-600">Adil</Link>
-        <nav className="space-x-6 hidden md:flex">
-          {navLinks.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              className={({ isActive }) =>
-                `hover:text-red-500 transition ${
-                  isActive ? "text-red-500" : "text-gray-300"
-                }`
-              }
+    <header className="fixed top-0 w-full z-50 bg-neutral-950/80 backdrop-blur-md px-4 py-3 flex items-center justify-between">
+      {/* Logo */}
+      <Link to="/" className="text-xl font-bold text-red-600">
+        Adil Khan
+      </Link>
+
+      {/* Desktop Nav */}
+      <nav className="hidden md:flex gap-6">
+        {links.map((l) => (
+          <Link
+            key={l.name}
+            to={l.route}
+            className="text-gray-300 hover:text-white transition"
+          >
+            {l.name}
+          </Link>
+        ))}
+      </nav>
+
+      {/* Mobile Menu Button */}
+      <button
+        className="md:hidden text-gray-300"
+        onClick={() => setOpen(!open)}
+      >
+        {open ? <X size={28} /> : <Menu size={28} />}
+      </button>
+
+      {/* Mobile Dropdown */}
+      {open && (
+        <div className="absolute top-full left-0 w-full bg-neutral-900 flex flex-col items-center py-4 md:hidden">
+          {links.map((l) => (
+            <Link
+              key={l.name}
+              to={l.route}
+              className="py-2 text-gray-300 hover:text-white"
+              onClick={() => setOpen(false)}
             >
-              {link.name}
-            </NavLink>
+              {l.name}
+            </Link>
           ))}
-        </nav>
-      </div>
+        </div>
+      )}
     </header>
   );
 }

@@ -1,7 +1,13 @@
+import Router from "./router";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <div className="h-screen flex items-center justify-center bg-gray-900 text-white">
-      <h1 className="text-4xl font-bold">Hello Tailwind + Vite 🚀</h1>
+    <div className="min-h-screen bg-neutral-950 text-white">
+      <Header />
+      <Router />
+      <Footer />
     </div>
   );
 }
