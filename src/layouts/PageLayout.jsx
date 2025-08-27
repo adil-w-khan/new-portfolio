@@ -1,4 +1,3 @@
-// src/layouts/PageLayout.jsx
 import { motion } from "framer-motion";
 
 const PageLayout = ({ children, className = "" }) => {

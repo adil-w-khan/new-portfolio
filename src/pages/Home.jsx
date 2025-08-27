@@ -16,7 +16,7 @@ export default function Home() {
     <div className="flex flex-col">
       {/* Profile Chooser */}
       <section className="h-screen bg-neutral-950 flex flex-col items-center justify-center">
-        <h1 className="text-3xl md:text-5xl font-bold text-gray-200 mb-10">
+        <h1 className="text-3xl md:text-5xl font-bold text-gray-200 mb-10 pt-10">
           Who's Watching?
         </h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
