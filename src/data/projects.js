@@ -4,7 +4,7 @@ const projectsData = [
     title: "House Price Prediction ML Model",
     description: "Built multiple ML models to predict house prices.",
     longDescription: "Built a comprehensive machine learning pipeline to predict house prices by comparing multiple algorithms and selecting the optimal model for real estate valuation. This end-to-end project demonstrates proficiency in data science workflows, from raw data processing to model deployment.",
-    technologies: ["Python", "Scikit-learn", "TensorFlow", "XGBoost"],
+    technologies: ["ml", "Python", "Scikit-learn", "TensorFlow", "XGBoost"],
     category: "Algorithm Simulation",
     status: "completed",
     featured: true,

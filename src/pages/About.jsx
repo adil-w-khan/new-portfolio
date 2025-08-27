@@ -42,12 +42,14 @@ export default function About() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2, duration: 0.6 }}
             >
-              I'm currently a student at Rutgers University–New Brunswick, pursuing a double major in Computer Science and Data Science.
-              I’m passionate about the technical side of computer science, helping others, and contributing to meaningful projects. 
-              I’m especially interested in the fields of software engineering and data science, where I can apply my strong programming and algorithmic thinking skills. 
-              As I continue my journey at Rutgers, my goals are to expand my technical abilities, grow my network, and take advantage of every opportunity to learn and make an impact. 
-              Outside of academics and professional development, I’m a big fan of soccer and Formula 1, I love traveling and volunteering whenever I can, and I’m also passionate about teaching. 
-              I'm always excited to connect with others who are passionate about technology, innovation, and making a difference!
+              i’m a student at rutgers university–new brunswick, double majoring in computer science and data science. i love the technical side of cs, building cool projects, and helping others along the way.<br /><br />
+  
+              right now, i’m especially into software engineering and machine learning — basically anywhere i can flex my programming and problem-solving skills. my goal at rutgers is pretty simple: keep learning, keep growing, and take every chance i can to make an impact.<br /><br />
+              
+              outside of school and coding, i’m a huge soccer and formula 1 fan. i also love traveling, volunteering, and teaching whenever i get the chance.<br /><br />
+              
+              always down to connect with people who are into tech, innovation, or just making a difference.
+
             </motion.p>
           </motion.div>
 
