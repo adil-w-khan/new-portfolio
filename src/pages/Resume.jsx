@@ -14,7 +14,7 @@ export default function ResumeSection() {
         {/* Last Updated Badge */}
         <div className="inline-flex items-center gap-2 bg-gray-800 rounded-full px-4 py-2 text-sm text-gray-300 mt-4">
           <Calendar className="w-4 h-4" />
-          Updated: August 2025
+          Updated: September 2025
         </div>
       </div>
 
@@ -22,7 +22,7 @@ export default function ResumeSection() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative w-full" style={{ paddingBottom: '130%', border: '4px solid red', borderRadius: '8px', overflow: 'hidden' }}>
           <iframe
-            src="https://drive.google.com/file/d/1rv-8o9yuEbNt65P4LnLMx5rYzjpSfYZR/preview"
+            src="https://drive.google.com/file/d/16pDCXM5j0qlsKFxhvo1ePPqHvHCfbgPK/preview"
             title="Adil W. Khan Resume"
             style={{
               position: 'absolute',
