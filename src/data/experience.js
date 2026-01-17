@@ -2,6 +2,27 @@
 
 const experience = [
   {
+  id: "exp4",
+  role: "Data Management Intern",
+  company: "Eagleton Institute of Politics",
+  logo: "/assets/eagleton.jpg", // Optional
+  location: "New Brunswick, NJ",
+  dates: "Jan 2026 - Present",
+  type: "internship", // "fulltime", "internship", "freelance"
+  featured: true, // Optional, for featured experiences
+  details: "As a data management intern at the Eagleton Institute of Politics, I supported the cleaning, validation, and maintenance of a comprehensive database tracking the ages of state and national elected officials across multiple election cycles for the Young Elected Leaders Project.",
+  bullets: [
+    "Support the cleaning, validation, and maintenance of a comprehensive database tracking the ages of state and national elected officials across multiple election cycles for the Young Elected Leaders Project.",
+    "Build and maintain new local and national election-year age datasets through source verification and cross-referencing.",
+    "Assist in developing data-driven webpages through RStudio and WordPress, and research requests by collaborating with Eagleton staff."
+  ],
+  techStack: ["R", "Excel", "RStudio", "WordPress"],
+  links: {
+    website: "https://nexusdevops.com",
+    //github: "https://github.com/repo" // Optional
+  }
+},
+  {
   id: "exp1",
   role: "Frontend Developer Intern",
   company: "Nexus Devops",
