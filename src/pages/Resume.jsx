@@ -14,7 +14,7 @@ export default function ResumeSection() {
         {/* Last Updated Badge */}
         <div className="inline-flex items-center gap-2 bg-gray-800 rounded-full px-4 py-2 text-sm text-gray-300 mt-4">
           <Calendar className="w-4 h-4" />
-          Updated: September 2025
+          Updated: January 2026
         </div>
       </div>
 
