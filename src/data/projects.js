@@ -1,5 +1,24 @@
 const projectsData = [
-    {
+   {
+    id: 19,
+    title: "Travel Reservation System",
+    description: "Built a travel reservation system with real-time availability checking and booking management.",
+    longDescription: "Developed a full-stack travel reservation system that allows users to search for available accommodations, view detailed information, and manage their bookings. The system includes real-time availability checking and comprehensive user management features.",
+    technologies: ["Java", "SQL"],
+    category: "Web Application",
+    status: "completed",
+    featured: true,
+    previewUrl: "",
+    githubUrl: "https://github.com/adil-w-khan/Travel-Reservation-Project",
+    hasPreview: false,
+    image: "",
+    keyFeatures: [
+      "MySQL for the database",
+      "Java Swing for the UI",
+      "JDBC for connectivity",
+    ]
+  }, 
+  {
     id: 18,
     title: "House Price Prediction ML Model",
     description: "Built multiple ML models to predict house prices.",

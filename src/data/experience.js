@@ -2,6 +2,27 @@
 
 const experience = [
   {
+    id: "exp5",
+    role: "Software Engineer Intern",
+    company: "Fiserv",
+    logo: "/assets/fiserv_logo.jpeg", // Optional
+    location: "Berkeley Heights, NJ",
+    dates: "Jun 2026 - Present",
+    type: "internship", // "fulltime", "internship", "freelance"
+    featured: true, // Optional, for featured experiences
+    details: "As a software engineer intern at Fiserv, I contribute to the development of innovative financial solutions by participating in agile development processes and collaborating with cross-functional teams.",
+    bullets: [
+      "Support coding, testing, and quality checks; participate in code reviews.",
+      "Collaborate with senior teammates on development work and deliverables.",
+      "Document processes and contribute ideas to improve solutions."
+    ],
+    techStack: ["Python", "SQL", "Power BI"],
+    links: {
+      website: "https://fiserv.com",
+      //github: "https://github.com/repo" // Optional
+    }
+  },
+  {
   id: "exp4",
   role: "Data Management Intern",
   company: "Eagleton Institute of Politics",
