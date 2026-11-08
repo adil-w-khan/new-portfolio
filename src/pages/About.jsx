@@ -42,7 +42,7 @@ export default function About() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2, duration: 0.6 }}
             >
-              i’m a student at rutgers university–new brunswick, double majoring in computer science and data science. i love the technical side of cs, building cool projects, and helping others along the way.<br /><br />
+              i’m a student at rutgers university–new brunswick, double majoring in computer science and data science, and minoring in economics. i love the technical side of cs, building cool projects, and helping others along the way.<br /><br />
   
               right now, i’m especially into software engineering and machine learning — basically anywhere i can flex my programming and problem-solving skills. my goal at rutgers is pretty simple: keep learning, keep growing, and take every chance i can to make an impact.<br /><br />
               

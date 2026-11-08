@@ -7,16 +7,16 @@ const experience = [
     company: "Fiserv",
     logo: "/assets/fiserv_logo.jpeg", // Optional
     location: "Berkeley Heights, NJ",
-    dates: "Jun 2026 - Present",
+    dates: "Jun 2026 - Aug 2026",
     type: "internship", // "fulltime", "internship", "freelance"
     featured: true, // Optional, for featured experiences
-    details: "As a software engineer intern at Fiserv, I contribute to the development of innovative financial solutions by participating in agile development processes and collaborating with cross-functional teams.",
+    details: "As a software engineer intern at Fiserv, I worked with the observability team to build a unified observability application to automate the process of server metadata retreival.",
     bullets: [
-      "Support coding, testing, and quality checks; participate in code reviews.",
-      "Collaborate with senior teammates on development work and deliverables.",
-      "Document processes and contribute ideas to improve solutions."
+      "Engineered an observability automation platform in Python that integrated with 6 enterprise monitoring tools (Splunk, Dynatrace, ExtraHop, ASM, SiteScope, and Moogsoft) through REST APIs to automate server metadata collection, replacing manual workflows that previously required hours per project.",
+      "Improved application performance by implementing async/await concurrency, reducing end-to-end runtime by 90% while supporting parallel API requests across multiple observability platforms",
+      "Built a CI/CD pipeline and deployed the application through Rundeck, enabling infrastructure engineers to execute the automation through a centralized self-service workflow and streamlining production deployments"
     ],
-    techStack: ["Python", "SQL", "Power BI"],
+    techStack: ["Python", "FastAPI", "SQL", "Power BI"],
     links: {
       website: "https://fiserv.com",
       //github: "https://github.com/repo" // Optional
